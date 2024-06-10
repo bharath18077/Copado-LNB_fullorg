@@ -225,6 +225,14 @@
         <type>Default</type>
     </actionOverrides>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <compactLayouts>
+        <fullName>new_compact_layout</fullName>
+        <fields>Phone</fields>
+        <fields>Rating</fields>
+        <fields>Name</fields>
+        <fields>AnnualRevenue</fields>
+        <label>new compact layout</label>
+    </compactLayouts>
     <enableFeeds>true</enableFeeds>
     <enableHistory>false</enableHistory>
     <externalSharingModel>Private</externalSharingModel>
