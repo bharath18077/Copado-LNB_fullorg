@@ -40,6 +40,9 @@
         <layout>Account-Account Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>Checking_for_git_ignore__c-Checking for git ignore Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>custom_object_1__c-custom object 1 Layout</layout>
     </layoutAssignments>
     <objectPermissions>
@@ -48,8 +51,17 @@
         <allowEdit>true</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
-        <object>custom_object_1__c</object>
+        <object>Checking_for_git_ignore__c</object>
         <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>custom_object_1__c</object>
+        <viewAllRecords>false</viewAllRecords>
     </objectPermissions>
     <tabVisibilities>
         <tab>custom_object_1__c</tab>
@@ -471,6 +483,10 @@
     <userPermissions>
         <enabled>true</enabled>
         <name>ManageMobile</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ManageMobileAppSecurity</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
