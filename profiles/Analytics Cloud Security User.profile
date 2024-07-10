@@ -23,6 +23,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>custom_object_1__c.new_picklist_field__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>custom_object_1__c.phone_field__c</field>
         <readable>true</readable>
     </fieldPermissions>
